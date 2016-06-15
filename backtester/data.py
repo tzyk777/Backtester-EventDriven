@@ -7,7 +7,7 @@ from collections import namedtuple
 
 import pandas as pd
 
-from backtester.event import MarketEvent
+from .event import MarketEvent
 
 logger = logging.getLogger('__main__')
 

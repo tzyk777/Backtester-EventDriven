@@ -5,7 +5,7 @@ import Queue
 
 from abc import ABCMeta, abstractclassmethod
 
-from event import SignalEvent
+from .event import SignalEvent
 
 
 class Strategy(object):
